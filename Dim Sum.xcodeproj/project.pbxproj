@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEA3BB51D9B628900232F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB41D9B628900232F15 /* AppDelegate.swift */; };
+		0CEA3BB71D9B628900232F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB61D9B628900232F15 /* ViewController.swift */; };
+		0CEA3BBA1D9B628900232F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB81D9B628900232F15 /* Main.storyboard */; };
+		0CEA3BBC1D9B628900232F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BBB1D9B628900232F15 /* Assets.xcassets */; };
+		0CEA3BBF1D9B628900232F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BBD1D9B628900232F15 /* LaunchScreen.storyboard */; };
+		0CEA3BCA1D9B628900232F15 /* Dim_SumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BC91D9B628900232F15 /* Dim_SumTests.swift */; };
+		0CEA3BD51D9B628900232F15 /* Dim_SumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BD41D9B628900232F15 /* Dim_SumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CEA3BC61D9B628900232F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CEA3BA91D9B628900232F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEA3BB01D9B628900232F15;
+			remoteInfo = "Dim Sum";
+		};
+		0CEA3BD11D9B628900232F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CEA3BA91D9B628900232F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEA3BB01D9B628900232F15;
+			remoteInfo = "Dim Sum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEA3BB11D9B628900232F15 /* Dim Sum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dim Sum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEA3BB41D9B628900232F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CEA3BB61D9B628900232F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BB91D9B628900232F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CEA3BBB1D9B628900232F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CEA3BBE1D9B628900232F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CEA3BC01D9B628900232F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEA3BC51D9B628900232F15 /* Dim SumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dim SumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEA3BC91D9B628900232F15 /* Dim_SumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dim_SumTests.swift; sourceTree = "<group>"; };
+		0CEA3BCB1D9B628900232F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEA3BD01D9B628900232F15 /* Dim SumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dim SumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEA3BD41D9B628900232F15 /* Dim_SumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dim_SumUITests.swift; sourceTree = "<group>"; };
+		0CEA3BD61D9B628900232F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEA3BAE1D9B628900232F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA3BC21D9B628900232F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA3BCD1D9B628900232F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEA3BA81D9B628900232F15 = {
+			isa = PBXGroup;
+			children = (
+				0CEA3BB31D9B628900232F15 /* Dim Sum */,
+				0CEA3BC81D9B628900232F15 /* Dim SumTests */,
+				0CEA3BD31D9B628900232F15 /* Dim SumUITests */,
+				0CEA3BB21D9B628900232F15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CEA3BB21D9B628900232F15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA3BB11D9B628900232F15 /* Dim Sum.app */,
+				0CEA3BC51D9B628900232F15 /* Dim SumTests.xctest */,
+				0CEA3BD01D9B628900232F15 /* Dim SumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CEA3BB31D9B628900232F15 /* Dim Sum */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA3BB41D9B628900232F15 /* AppDelegate.swift */,
+				0CEA3BB61D9B628900232F15 /* ViewController.swift */,
+				0CEA3BB81D9B628900232F15 /* Main.storyboard */,
+				0CEA3BBB1D9B628900232F15 /* Assets.xcassets */,
+				0CEA3BBD1D9B628900232F15 /* LaunchScreen.storyboard */,
+				0CEA3BC01D9B628900232F15 /* Info.plist */,
+			);
+			path = "Dim Sum";
+			sourceTree = "<group>";
+		};
+		0CEA3BC81D9B628900232F15 /* Dim SumTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA3BC91D9B628900232F15 /* Dim_SumTests.swift */,
+				0CEA3BCB1D9B628900232F15 /* Info.plist */,
+			);
+			path = "Dim SumTests";
+			sourceTree = "<group>";
+		};
+		0CEA3BD31D9B628900232F15 /* Dim SumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA3BD41D9B628900232F15 /* Dim_SumUITests.swift */,
+				0CEA3BD61D9B628900232F15 /* Info.plist */,
+			);
+			path = "Dim SumUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CEA3BB01D9B628900232F15 /* Dim Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEA3BD91D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim Sum" */;
+			buildPhases = (
+				0CEA3BAD1D9B628900232F15 /* Sources */,
+				0CEA3BAE1D9B628900232F15 /* Frameworks */,
+				0CEA3BAF1D9B628900232F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dim Sum";
+			productName = "Dim Sum";
+			productReference = 0CEA3BB11D9B628900232F15 /* Dim Sum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CEA3BC41D9B628900232F15 /* Dim SumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEA3BDC1D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim SumTests" */;
+			buildPhases = (
+				0CEA3BC11D9B628900232F15 /* Sources */,
+				0CEA3BC21D9B628900232F15 /* Frameworks */,
+				0CEA3BC31D9B628900232F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CEA3BC71D9B628900232F15 /* PBXTargetDependency */,
+			);
+			name = "Dim SumTests";
+			productName = "Dim SumTests";
+			productReference = 0CEA3BC51D9B628900232F15 /* Dim SumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CEA3BCF1D9B628900232F15 /* Dim SumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEA3BDF1D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim SumUITests" */;
+			buildPhases = (
+				0CEA3BCC1D9B628900232F15 /* Sources */,
+				0CEA3BCD1D9B628900232F15 /* Frameworks */,
+				0CEA3BCE1D9B628900232F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CEA3BD21D9B628900232F15 /* PBXTargetDependency */,
+			);
+			name = "Dim SumUITests";
+			productName = "Dim SumUITests";
+			productReference = 0CEA3BD01D9B628900232F15 /* Dim SumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CEA3BA91D9B628900232F15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Leung, Shelley";
+				TargetAttributes = {
+					0CEA3BB01D9B628900232F15 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0CEA3BC41D9B628900232F15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0CEA3BB01D9B628900232F15;
+					};
+					0CEA3BCF1D9B628900232F15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0CEA3BB01D9B628900232F15;
+					};
+				};
+			};
+			buildConfigurationList = 0CEA3BAC1D9B628900232F15 /* Build configuration list for PBXProject "Dim Sum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CEA3BA81D9B628900232F15;
+			productRefGroup = 0CEA3BB21D9B628900232F15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEA3BB01D9B628900232F15 /* Dim Sum */,
+				0CEA3BC41D9B628900232F15 /* Dim SumTests */,
+				0CEA3BCF1D9B628900232F15 /* Dim SumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEA3BAF1D9B628900232F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEA3BBF1D9B628900232F15 /* LaunchScreen.storyboard in Resources */,
+				0CEA3BBC1D9B628900232F15 /* Assets.xcassets in Resources */,
+				0CEA3BBA1D9B628900232F15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA3BC31D9B628900232F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA3BCE1D9B628900232F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CEA3BAD1D9B628900232F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEA3BB71D9B628900232F15 /* ViewController.swift in Sources */,
+				0CEA3BB51D9B628900232F15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA3BC11D9B628900232F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEA3BCA1D9B628900232F15 /* Dim_SumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA3BCC1D9B628900232F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEA3BD51D9B628900232F15 /* Dim_SumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CEA3BC71D9B628900232F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CEA3BB01D9B628900232F15 /* Dim Sum */;
+			targetProxy = 0CEA3BC61D9B628900232F15 /* PBXContainerItemProxy */;
+		};
+		0CEA3BD21D9B628900232F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CEA3BB01D9B628900232F15 /* Dim Sum */;
+			targetProxy = 0CEA3BD11D9B628900232F15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CEA3BB81D9B628900232F15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CEA3BB91D9B628900232F15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CEA3BBD1D9B628900232F15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CEA3BBE1D9B628900232F15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CEA3BD71D9B628900232F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CEA3BD81D9B628900232F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CEA3BDA1D9B628900232F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dim Sum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ShelleyLeung.Dim-Sum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CEA3BDB1D9B628900232F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dim Sum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ShelleyLeung.Dim-Sum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CEA3BDD1D9B628900232F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dim SumTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ShelleyLeung.Dim-SumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dim Sum.app/Dim Sum";
+			};
+			name = Debug;
+		};
+		0CEA3BDE1D9B628900232F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dim SumTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ShelleyLeung.Dim-SumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dim Sum.app/Dim Sum";
+			};
+			name = Release;
+		};
+		0CEA3BE01D9B628900232F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dim SumUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ShelleyLeung.Dim-SumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dim Sum";
+			};
+			name = Debug;
+		};
+		0CEA3BE11D9B628900232F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dim SumUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ShelleyLeung.Dim-SumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dim Sum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEA3BAC1D9B628900232F15 /* Build configuration list for PBXProject "Dim Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA3BD71D9B628900232F15 /* Debug */,
+				0CEA3BD81D9B628900232F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEA3BD91D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA3BDA1D9B628900232F15 /* Debug */,
+				0CEA3BDB1D9B628900232F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CEA3BDC1D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim SumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA3BDD1D9B628900232F15 /* Debug */,
+				0CEA3BDE1D9B628900232F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CEA3BDF1D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim SumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA3BE01D9B628900232F15 /* Debug */,
+				0CEA3BE11D9B628900232F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CEA3BA91D9B628900232F15 /* Project object */;
+}
