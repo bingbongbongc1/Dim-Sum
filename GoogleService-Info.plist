@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>421429017591-5kb3ndn80s3jeudg366vt5o72hfa1nsn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.421429017591-5kb3ndn80s3jeudg366vt5o72hfa1nsn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCV80iJExpXVL_eLYtYq8Qsd6WjPq9Vkq4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>421429017591</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ShelleyLeung.Dim-Sum</string>
+	<key>PROJECT_ID</key>
+	<string>dim-sum-358b3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dim-sum-358b3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:421429017591:ios:afb1ba22a892bb9c</string>
+	<key>DATABASE_URL</key>
+	<string>https://dim-sum-358b3.firebaseio.com</string>
+</dict>
+</plist>

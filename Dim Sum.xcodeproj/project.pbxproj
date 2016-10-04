@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C02A3A21D9C949E009A689D /* dimSumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02A3A11D9C949E009A689D /* dimSumCollectionViewCell.swift */; };
+		0C02A3A41D9C94B4009A689D /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02A3A31D9C94B4009A689D /* homeViewController.swift */; };
+		0C0F83801DA431130015E3AD /* listTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F837F1DA431130015E3AD /* listTableViewCell.swift */; };
+		0C2718681DA3455100B850E6 /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2718671DA3455100B850E6 /* listViewController.swift */; };
+		0C7F4CBD1DA438E100DA1EB2 /* page0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F4CBC1DA438E100DA1EB2 /* page0ViewController.swift */; };
+		0C7F4CBF1DA4514900DA1EB2 /* tap-professional.aif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */; };
+		0C924DD31DA06E3400BDF066 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C924DD21DA06E3400BDF066 /* detailViewController.swift */; };
 		0CEA3BB51D9B628900232F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB41D9B628900232F15 /* AppDelegate.swift */; };
 		0CEA3BB71D9B628900232F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB61D9B628900232F15 /* ViewController.swift */; };
 		0CEA3BBA1D9B628900232F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB81D9B628900232F15 /* Main.storyboard */; };
@@ -14,6 +21,20 @@
 		0CEA3BBF1D9B628900232F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BBD1D9B628900232F15 /* LaunchScreen.storyboard */; };
 		0CEA3BCA1D9B628900232F15 /* Dim_SumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BC91D9B628900232F15 /* Dim_SumTests.swift */; };
 		0CEA3BD51D9B628900232F15 /* Dim_SumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BD41D9B628900232F15 /* Dim_SumUITests.swift */; };
+		0CEA3BE31D9B62D800232F15 /* wt071.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BE21D9B62D800232F15 /* wt071.ttf */; };
+		0CEA3BE51D9B62EF00232F15 /* attack of the cucumbers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BE41D9B62EF00232F15 /* attack of the cucumbers.ttf */; };
+		0CEA3BE91D9B691000232F15 /* page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BE81D9B691000232F15 /* page1ViewController.swift */; };
+		0CEA3BEB1D9B73CB00232F15 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BEA1D9B73CB00232F15 /* Common.swift */; };
+		0CEA3BED1D9C2DAA00232F15 /* page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BEC1D9C2DAA00232F15 /* page2ViewController.swift */; };
+		0CEA3BF01D9C372200232F15 /* page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BEF1D9C372200232F15 /* page3ViewController.swift */; };
+		0CEA3BF21D9C372F00232F15 /* page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BF11D9C372F00232F15 /* page4ViewController.swift */; };
+		0CEA3BF41D9C373900232F15 /* page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BF31D9C373900232F15 /* page5ViewController.swift */; };
+		0CEA3BF61D9C374600232F15 /* page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BF51D9C374600232F15 /* page6ViewController.swift */; };
+		0CEA3BF81D9C375200232F15 /* page7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BF71D9C375200232F15 /* page7ViewController.swift */; };
+		0CEA3BFA1D9C376400232F15 /* page8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BF91D9C376400232F15 /* page8ViewController.swift */; };
+		0CEA3BFC1D9C376C00232F15 /* page9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BFB1D9C376C00232F15 /* page9ViewController.swift */; };
+		0CEA3BFE1D9C377700232F15 /* page10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BFD1D9C377700232F15 /* page10ViewController.swift */; };
+		0CEA3C031D9C7CDD00232F15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3C021D9C7CDD00232F15 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C02A3A11D9C949E009A689D /* dimSumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dimSumCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C02A3A31D9C94B4009A689D /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		0C0F837F1DA431130015E3AD /* listTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listTableViewCell.swift; sourceTree = "<group>"; };
+		0C2718671DA3455100B850E6 /* listViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
+		0C7F4CBC1DA438E100DA1EB2 /* page0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page0ViewController.swift; sourceTree = "<group>"; };
+		0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-professional.aif"; sourceTree = "<group>"; };
+		0C924DD21DA06E3400BDF066 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		0CEA3BB11D9B628900232F15 /* Dim Sum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dim Sum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEA3BB41D9B628900232F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEA3BB61D9B628900232F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +75,20 @@
 		0CEA3BD01D9B628900232F15 /* Dim SumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dim SumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEA3BD41D9B628900232F15 /* Dim_SumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dim_SumUITests.swift; sourceTree = "<group>"; };
 		0CEA3BD61D9B628900232F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEA3BE21D9B62D800232F15 /* wt071.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wt071.ttf; sourceTree = "<group>"; };
+		0CEA3BE41D9B62EF00232F15 /* attack of the cucumbers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "attack of the cucumbers.ttf"; sourceTree = "<group>"; };
+		0CEA3BE81D9B691000232F15 /* page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = page1ViewController.swift; path = ../page1ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BEA1D9B73CB00232F15 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0CEA3BEC1D9C2DAA00232F15 /* page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page2ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BEF1D9C372200232F15 /* page3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page3ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BF11D9C372F00232F15 /* page4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page4ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BF31D9C373900232F15 /* page5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page5ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BF51D9C374600232F15 /* page6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page6ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BF71D9C375200232F15 /* page7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page7ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BF91D9C376400232F15 /* page8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page8ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BFB1D9C376C00232F15 /* page9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page9ViewController.swift; sourceTree = "<group>"; };
+		0CEA3BFD1D9C377700232F15 /* page10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page10ViewController.swift; sourceTree = "<group>"; };
+		0CEA3C021D9C7CDD00232F15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +123,10 @@
 				0CEA3BC81D9B628900232F15 /* Dim SumTests */,
 				0CEA3BD31D9B628900232F15 /* Dim SumUITests */,
 				0CEA3BB21D9B628900232F15 /* Products */,
+				0CEA3BE21D9B62D800232F15 /* wt071.ttf */,
+				0CEA3BE41D9B62EF00232F15 /* attack of the cucumbers.ttf */,
+				0CEA3C021D9C7CDD00232F15 /* GoogleService-Info.plist */,
+				0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +143,9 @@
 		0CEA3BB31D9B628900232F15 /* Dim Sum */ = {
 			isa = PBXGroup;
 			children = (
+				0CEA3BEA1D9B73CB00232F15 /* Common.swift */,
+				0CEA3BEE1D9C2DB300232F15 /* Intro Pages */,
+				0CEA3BFF1D9C788B00232F15 /* Main */,
 				0CEA3BB41D9B628900232F15 /* AppDelegate.swift */,
 				0CEA3BB61D9B628900232F15 /* ViewController.swift */,
 				0CEA3BB81D9B628900232F15 /* Main.storyboard */,
@@ -123,6 +172,36 @@
 				0CEA3BD61D9B628900232F15 /* Info.plist */,
 			);
 			path = "Dim SumUITests";
+			sourceTree = "<group>";
+		};
+		0CEA3BEE1D9C2DB300232F15 /* Intro Pages */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F4CBC1DA438E100DA1EB2 /* page0ViewController.swift */,
+				0CEA3BE81D9B691000232F15 /* page1ViewController.swift */,
+				0CEA3BEC1D9C2DAA00232F15 /* page2ViewController.swift */,
+				0CEA3BEF1D9C372200232F15 /* page3ViewController.swift */,
+				0CEA3BF11D9C372F00232F15 /* page4ViewController.swift */,
+				0CEA3BF31D9C373900232F15 /* page5ViewController.swift */,
+				0CEA3BF51D9C374600232F15 /* page6ViewController.swift */,
+				0CEA3BF71D9C375200232F15 /* page7ViewController.swift */,
+				0CEA3BF91D9C376400232F15 /* page8ViewController.swift */,
+				0CEA3BFB1D9C376C00232F15 /* page9ViewController.swift */,
+				0CEA3BFD1D9C377700232F15 /* page10ViewController.swift */,
+			);
+			name = "Intro Pages";
+			sourceTree = "<group>";
+		};
+		0CEA3BFF1D9C788B00232F15 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0C02A3A11D9C949E009A689D /* dimSumCollectionViewCell.swift */,
+				0C924DD21DA06E3400BDF066 /* detailViewController.swift */,
+				0C0F837F1DA431130015E3AD /* listTableViewCell.swift */,
+				0C2718671DA3455100B850E6 /* listViewController.swift */,
+				0C02A3A31D9C94B4009A689D /* homeViewController.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +308,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEA3BE31D9B62D800232F15 /* wt071.ttf in Resources */,
 				0CEA3BBF1D9B628900232F15 /* LaunchScreen.storyboard in Resources */,
 				0CEA3BBC1D9B628900232F15 /* Assets.xcassets in Resources */,
+				0C7F4CBF1DA4514900DA1EB2 /* tap-professional.aif in Resources */,
+				0CEA3BE51D9B62EF00232F15 /* attack of the cucumbers.ttf in Resources */,
 				0CEA3BBA1D9B628900232F15 /* Main.storyboard in Resources */,
+				0CEA3C031D9C7CDD00232F15 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +339,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEA3BEB1D9B73CB00232F15 /* Common.swift in Sources */,
+				0CEA3BF21D9C372F00232F15 /* page4ViewController.swift in Sources */,
+				0CEA3BED1D9C2DAA00232F15 /* page2ViewController.swift in Sources */,
+				0CEA3BF81D9C375200232F15 /* page7ViewController.swift in Sources */,
 				0CEA3BB71D9B628900232F15 /* ViewController.swift in Sources */,
+				0C7F4CBD1DA438E100DA1EB2 /* page0ViewController.swift in Sources */,
+				0CEA3BF01D9C372200232F15 /* page3ViewController.swift in Sources */,
+				0CEA3BF41D9C373900232F15 /* page5ViewController.swift in Sources */,
+				0C924DD31DA06E3400BDF066 /* detailViewController.swift in Sources */,
 				0CEA3BB51D9B628900232F15 /* AppDelegate.swift in Sources */,
+				0C0F83801DA431130015E3AD /* listTableViewCell.swift in Sources */,
+				0CEA3BE91D9B691000232F15 /* page1ViewController.swift in Sources */,
+				0CEA3BFC1D9C376C00232F15 /* page9ViewController.swift in Sources */,
+				0CEA3BFE1D9C377700232F15 /* page10ViewController.swift in Sources */,
+				0C2718681DA3455100B850E6 /* listViewController.swift in Sources */,
+				0CEA3BFA1D9C376400232F15 /* page8ViewController.swift in Sources */,
+				0CEA3BF61D9C374600232F15 /* page6ViewController.swift in Sources */,
+				0C02A3A41D9C94B4009A689D /* homeViewController.swift in Sources */,
+				0C02A3A21D9C949E009A689D /* dimSumCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +582,7 @@
 				0CEA3BDB1D9B628900232F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CEA3BDC1D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim SumTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +591,7 @@
 				0CEA3BDE1D9B628900232F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CEA3BDF1D9B628900232F15 /* Build configuration list for PBXNativeTarget "Dim SumUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +600,7 @@
 				0CEA3BE11D9B628900232F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
