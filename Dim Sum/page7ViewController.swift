@@ -28,6 +28,16 @@ class page7ViewController: UIViewController, UIScrollViewDelegate {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page78Segue", sender: nil)
+        
+    }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     override func viewDidAppear(animated: Bool) {
         
         UIView.animateWithDuration(0.5, delay: 0.5, options: [], animations: {

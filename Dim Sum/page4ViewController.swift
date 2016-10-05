@@ -46,6 +46,13 @@ class page4ViewController: UIViewController, UIScrollViewDelegate {
         
     }
     
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page45Segue", sender: nil)
+    }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
 
     override func didReceiveMemoryWarning() {

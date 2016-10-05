@@ -35,6 +35,9 @@ class page2ViewController: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var chineseLabel4: UILabel!
     @IBOutlet weak var chrysanthemumLabel4: UILabel!
     
+    @IBOutlet weak var nextBtn: UIButton!
+    
+    
     
     // Arrays of initial transform values for images
     var xOffsets : [CGFloat] = [70, 128, -227, -44,0]
@@ -154,12 +157,22 @@ class page2ViewController: UIViewController,UIScrollViewDelegate {
 
     }
     
-    @IBAction func didTapPreBtn(sender: AnyObject) {
-        dismissViewControllerAnimated(true) { 
-            
-            
-        }
+//    @IBAction func didTapPreBtn(sender: AnyObject) {
+////        navigationController?.popViewControllerAnimated(true)
+////        dismissViewControllerAnimated(true) { 
+////         }
+//        
+//    }
+    
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page23Segue", sender: nil)
     }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

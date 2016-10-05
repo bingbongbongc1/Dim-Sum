@@ -29,6 +29,8 @@ class page1ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var chickFeetImage3L: UIImageView!
     @IBOutlet weak var friedTaroImage4L: UIImageView!
     
+    @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var backBtn: UIButton!
     
     
     // Arrays of initial transform values for images
@@ -36,6 +38,9 @@ class page1ViewController: UIViewController, UIScrollViewDelegate {
     var yOffsets : [CGFloat] = [0, -22.5, -116.5, -213, -140.5]
     var scales : [CGFloat] = [1.25, 1.25, 1.25, 1.25, 1.25]
 
+    var fromWhere: Bool = true
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,12 +50,18 @@ class page1ViewController: UIViewController, UIScrollViewDelegate {
         page1ScrollView.delegate = self
         
         pageCount.layer.cornerRadius = pageCount.frame.height / 2
+
+        // Do any additional setup after loading the view.
+    }
+    
+    
+    override func viewDidAppear(animated: Bool) {
         
         UIView.animateWithDuration(0.5, delay: 0.5, options: [], animations: {
             self.des1Page1.alpha = 1
-            }) { (Bool) in
+        }) { (Bool) in
         }
-       
+        
         UIView.animateWithDuration(1, delay: 1.5, options: [], animations: {
             self.des2Page1.alpha = 1
         }) { (Bool) in
@@ -58,7 +69,7 @@ class page1ViewController: UIViewController, UIScrollViewDelegate {
         
         UIView.animateWithDuration(0.2, delay: 3, options: [], animations: {
             self.teapotImage1L.alpha = 1
-            }) { (Bool) in
+        }) { (Bool) in
         }
         
         
@@ -81,18 +92,27 @@ class page1ViewController: UIViewController, UIScrollViewDelegate {
             self.friedTaroImage4L.alpha = 1
         }) { (Bool) in
         }
-
-
-        // Do any additional setup after loading the view.
+        
     }
-    
     
     @IBAction func didTapPreBtn(sender: AnyObject) {
+        
         dismissViewControllerAnimated(true) { 
-            
-            
+    
         }
+//        navigationController?.popViewControllerAnimated(true)
     }
+    
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page12Segue", sender: nil)
+    }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
         
@@ -153,7 +173,20 @@ class page1ViewController: UIViewController, UIScrollViewDelegate {
         
     }
     
-    
+//    func layoutView() {
+//        
+//        if fromWhere == true {
+//            
+//            backBtn.hidden = true
+//            
+//        }
+//        else {
+//            
+//            nextBtn.hidden = true
+//
+//        }
+//        
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

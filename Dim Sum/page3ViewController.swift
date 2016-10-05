@@ -18,6 +18,8 @@ class page3ViewController: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var cartLinesImage2: UIImageView!
     @IBOutlet weak var label1: UILabel!
     
+    @IBOutlet weak var nextBtn: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +61,14 @@ class page3ViewController: UIViewController,UIScrollViewDelegate {
         }
     }
     
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page34Segue", sender: nil)
+    }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

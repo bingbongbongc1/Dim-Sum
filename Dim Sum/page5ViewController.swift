@@ -168,6 +168,16 @@ class page5ViewController: UIViewController, UIScrollViewDelegate {
 
     }
 
+    
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page56Segue", sender: nil)
+    }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

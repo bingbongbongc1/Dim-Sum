@@ -15,6 +15,7 @@ class page8ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var des1Page8: UILabel!
     @IBOutlet weak var refillWaterImage1: UIImageView!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var preButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,14 +41,21 @@ class page8ViewController: UIViewController, UIScrollViewDelegate {
             self.refillWaterImage1.alpha = 1
         }) { (Bool) in
         }
-        UIView.animateWithDuration(0.2, delay: 3, options: [], animations: {
+        UIView.animateWithDuration(0.2, delay: 2.5, options: [], animations: {
+            self.preButton.alpha = 1
             self.nextButton.alpha = 1
         }) { (Bool) in
         }
         
     }
 
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page89Segue", sender: nil)
+    }
 
+    @IBAction func didTapPageNumber(sender: AnyObject) {dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -97,6 +97,17 @@ class page9ViewController: UIViewController, UIScrollViewDelegate {
 //        
 //    }
 
+    
+    @IBAction func didTapNextBtn(sender: AnyObject) {
+        performSegueWithIdentifier("page910Segue", sender: nil)
+    }
+    
+    @IBAction func didTapPageNumber(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     // First 'try it" button - pour tea for others
     @IBAction func didTapTryItButton1a(sender: AnyObject) {
         

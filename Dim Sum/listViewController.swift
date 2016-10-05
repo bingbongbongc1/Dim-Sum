@@ -84,8 +84,6 @@ class listViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let index = indexPath.row
         
-        print("my index is \(index)")
-        
         if index == 0 {
             performSegueWithIdentifier("listSeguePage00", sender: self)
         }
@@ -122,20 +120,48 @@ class listViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     }
 
+    @IBAction func didTapBackBtn(sender: AnyObject) {
+        dismissViewControllerAnimated(true) { 
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
-    /*
+/*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        
+        if segue.identifier == "listSeguePage00" {
+            let destinationNavigationController = segue.destinationViewController as! UINavigationController
+            
+            let p0VC = destinationNavigationController.topViewController as! page0ViewController
+            
+            p0VC.fromWhere = false
+
+        
+        }
+    
+        else if segue.identifier == "listSeguePage01"{
+            let destinationNavigationController = navigationController?.viewControllers[1] as? UINavigationController
+            
+            let p1VC = destinationNavigationController?.topViewController as? page1ViewController
+            
+            p1VC!.fromWhere = false
+        
+        }
+
+        
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+*/
 
 }

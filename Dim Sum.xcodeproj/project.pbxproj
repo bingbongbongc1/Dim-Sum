@@ -14,6 +14,7 @@
 		0C7F4CBD1DA438E100DA1EB2 /* page0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F4CBC1DA438E100DA1EB2 /* page0ViewController.swift */; };
 		0C7F4CBF1DA4514900DA1EB2 /* tap-professional.aif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */; };
 		0C924DD31DA06E3400BDF066 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C924DD21DA06E3400BDF066 /* detailViewController.swift */; };
+		0CD6525D1DA597B0001BC32C /* BBQPorkBun.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6525C1DA597B0001BC32C /* BBQPorkBun.aiff */; };
 		0CEA3BB51D9B628900232F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB41D9B628900232F15 /* AppDelegate.swift */; };
 		0CEA3BB71D9B628900232F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB61D9B628900232F15 /* ViewController.swift */; };
 		0CEA3BBA1D9B628900232F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA3BB81D9B628900232F15 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		0C7F4CBC1DA438E100DA1EB2 /* page0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page0ViewController.swift; sourceTree = "<group>"; };
 		0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-professional.aif"; sourceTree = "<group>"; };
 		0C924DD21DA06E3400BDF066 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		0CD6525C1DA597B0001BC32C /* BBQPorkBun.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = BBQPorkBun.aiff; sourceTree = "<group>"; };
 		0CEA3BB11D9B628900232F15 /* Dim Sum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dim Sum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEA3BB41D9B628900232F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEA3BB61D9B628900232F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD6525E1DA598EA001BC32C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */,
+				0CD6525C1DA597B0001BC32C /* BBQPorkBun.aiff */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
 		0CEA3BA81D9B628900232F15 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +137,7 @@
 				0CEA3BE21D9B62D800232F15 /* wt071.ttf */,
 				0CEA3BE41D9B62EF00232F15 /* attack of the cucumbers.ttf */,
 				0CEA3C021D9C7CDD00232F15 /* GoogleService-Info.plist */,
-				0C7F4CBE1DA4514900DA1EB2 /* tap-professional.aif */,
+				0CD6525E1DA598EA001BC32C /* Sound */,
 			);
 			sourceTree = "<group>";
 		};
@@ -309,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEA3BE31D9B62D800232F15 /* wt071.ttf in Resources */,
+				0CD6525D1DA597B0001BC32C /* BBQPorkBun.aiff in Resources */,
 				0CEA3BBF1D9B628900232F15 /* LaunchScreen.storyboard in Resources */,
 				0CEA3BBC1D9B628900232F15 /* Assets.xcassets in Resources */,
 				0C7F4CBF1DA4514900DA1EB2 /* tap-professional.aif in Resources */,

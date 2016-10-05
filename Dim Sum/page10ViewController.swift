@@ -17,7 +17,7 @@ class page10ViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        page10ScrollView.contentSize = CGSize(width: 320, height: 900)
+        page10ScrollView.contentSize = CGSize(width: 320, height: 568)
         
         page10ScrollView.delegate = self
         
@@ -26,6 +26,10 @@ class page10ViewController: UIViewController, UIScrollViewDelegate {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func didTapPageNumber(sender: AnyObject) { dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ht2-1G-K9L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="1Ya-nR-N33">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="attack of the cucumbers.ttf">
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
+            <string>attackofthecucumbers</string>
             <string>attackofthecucumbers</string>
             <string>attackofthecucumbers</string>
             <string>attackofthecucumbers</string>
@@ -132,12 +141,19 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HZC-D9-YLx">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="cs6-Yj-bl1"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dim Sum App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UtK-wv-Oyn">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -145,21 +161,21 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dim sum, a Cantonese tradition, is a popular weekend brunch option. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GrW-BG-mwM">
-                                        <rect key="frame" x="30" y="170" width="260" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app will walk you through a typical dim sum experience in hope to enhance your actual experience." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GrW-BG-mwM">
+                                        <rect key="frame" x="30" y="170" width="260" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Many different kinds of tea and small plates of food are served. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fdA-I2-uaV">
-                                        <rect key="frame" x="30" y="265" width="260" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will learn about the food, the general process, and some common customs." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fdA-I2-uaV">
+                                        <rect key="frame" x="30" y="290" width="260" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="characterWrap" id="LIm-qB-EH4">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="characterWrap" id="LIm-qB-EH4">
                                         <rect key="frame" x="119" y="420" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
@@ -167,28 +183,44 @@
                                             <color key="titleColor" red="0.90196078430000004" green="0.30196078430000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="modal" identifier="page01Segue" modalTransitionStyle="flipHorizontal" id="ijF-xh-ev8"/>
+                                            <action selector="didTapStartBtn:" destination="1Ya-nR-N33" eventType="touchUpInside" id="bCb-1c-Nuv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="characterWrap" id="Ot9-xD-gII">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="characterWrap" id="Ot9-xD-gII">
                                         <rect key="frame" x="119" y="480" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
-                                        <state key="normal" title="Skip">
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
+                                        <state key="normal" title="Skip Intro">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <segue destination="gT8-fx-Yg4" kind="modal" modalTransitionStyle="crossDissolve" id="gKW-af-950"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qEX-WN-pmW">
+                                        <rect key="frame" x="36" y="25" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapBackBtn:" destination="1Ya-nR-N33" eventType="touchUpInside" id="ie1-3n-RWl"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.8666666666666667" green="0.22745098039215686" blue="0.050980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313725490198" green="0.27450980392156865" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="oUT-Th-8kS"/>
                     <connections>
+                        <outlet property="backBtn" destination="qEX-WN-pmW" id="vFQ-ah-Wqw"/>
+                        <outlet property="des1Page0" destination="GrW-BG-mwM" id="u3u-Yw-GQX"/>
+                        <outlet property="des2Page0" destination="fdA-I2-uaV" id="I7e-0z-NtC"/>
                         <outlet property="pageCount" destination="ht9-4Y-mHx" id="f8s-U7-vja"/>
+                        <outlet property="skipBtn" destination="Ot9-xD-gII" id="JYa-CY-6aI"/>
+                        <outlet property="startBtn" destination="LIm-qB-EH4" id="6hd-ES-k9y"/>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="page01Segue" modalTransitionStyle="flipHorizontal" id="j1m-mH-MHS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ios-Hh-4WU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -207,6 +239,16 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bOo-yW-nQ3">
+                                        <rect key="frame" x="20" y="25" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapBackBtn:" destination="1Ya-nR-N33" eventType="touchUpInside" id="x4Z-ea-p8t"/>
+                                        </connections>
+                                    </button>
                                     <view contentMode="scaleToFill" id="UjO-7h-ShR">
                                         <rect key="frame" x="135" y="25" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -215,12 +257,20 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392156862746" green="0.30980392156862746" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lr5-pJ-aPs">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oym-7c-7eP"/>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="Rx4-ir-1xT"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's dim sum?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KAO-Ef-mdV">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -282,15 +332,15 @@
                                         <rect key="frame" x="135" y="603" width="176" height="118"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="pLn-H6-Lme">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="pLn-H6-Lme">
                                         <rect key="frame" x="204" y="810" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.90196078430000004" green="0.30196078430000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Csm-hM-Esk" kind="modal" identifier="page12Segue" modalTransitionStyle="flipHorizontal" id="Oav-Eq-07p"/>
+                                            <action selector="didTapNextBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ll4-0l-kz6"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="jyK-GA-77S">
@@ -298,7 +348,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
-                                            <color key="titleColor" red="0.90196078430000004" green="0.30196078430000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="didTapPreBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I6P-gz-YMX"/>
@@ -308,18 +358,20 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196078430000004" green="0.30196078430000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="k4B-b3-tH0"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="900"/>
                     <connections>
+                        <outlet property="backBtn" destination="bOo-yW-nQ3" id="nM6-DF-NDS"/>
                         <outlet property="chickFeetImage3L" destination="RKl-mG-4qT" id="lcz-PW-Und"/>
                         <outlet property="chickenFeetImage3" destination="rKj-Df-RpU" id="zVD-5u-kXe"/>
                         <outlet property="des1Page1" destination="00f-8m-uwl" id="rFt-be-eTJ"/>
                         <outlet property="des2Page1" destination="AU5-ws-vdb" id="xGk-cb-u0g"/>
                         <outlet property="friedTaroImage4" destination="q7H-PF-9zG" id="n8m-UE-9hh"/>
                         <outlet property="friedTaroImage4L" destination="TRa-Ww-RWk" id="xOF-cj-6th"/>
+                        <outlet property="nextBtn" destination="pLn-H6-Lme" id="h7k-OB-fCq"/>
                         <outlet property="page1ScrollView" destination="19z-GX-SF6" id="asc-je-9X1"/>
                         <outlet property="pageCount" destination="UjO-7h-ShR" id="fpQ-fG-7px"/>
                         <outlet property="shumaiImage2" destination="rDp-p7-OeN" id="xS2-Oi-h8Y"/>
@@ -329,6 +381,7 @@
                         <outlet property="teapotImage1" destination="U0F-Ng-bUK" id="36P-bf-PQz"/>
                         <outlet property="teapotImage1L" destination="3co-Y8-t8w" id="etG-Ok-G8K"/>
                         <outlet property="titlePage1" destination="KAO-Ef-mdV" id="MgI-cq-UG8"/>
+                        <segue destination="Csm-hM-Esk" kind="modal" identifier="page12Segue" modalTransitionStyle="flipHorizontal" id="NjW-ZR-801"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -355,12 +408,21 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vnb-Pf-n4W">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="7KS-2B-75T"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cKK-Oe-xm0"/>
+                                            <action selector="didTapPageNumber:" destination="Csm-hM-Esk" eventType="touchUpInside" id="cdH-X4-hRS"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick your tea" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Okx-Im-MRT">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -368,7 +430,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After you take your seat, the server will ask you your choice of tea." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4WZ-7m-27h">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After you take your seat, the server will ask you for your choice of tea." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4WZ-7m-27h">
                                         <rect key="frame" x="30" y="170" width="260" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
@@ -477,15 +539,15 @@
                                         <rect key="frame" x="155" y="325" width="100" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="H7I-AM-sKL">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="H7I-AM-sKL">
                                         <rect key="frame" x="204" y="730" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.95686274510000002" green="0.5450980392" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="JzE-TB-J7v" kind="modal" identifier="page23Segue" modalTransitionStyle="flipHorizontal" id="w5g-Qs-uVg"/>
+                                            <action selector="didTapNextBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="vfS-he-jKO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="rw9-oc-dsc">
@@ -493,7 +555,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
-                                            <color key="titleColor" red="0.90196078430000004" green="0.30196078430000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="95y-iY-Lth"/>
@@ -504,8 +566,9 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.95686274509803915" green="0.54509803921568623" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="aNB-cf-fev"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="800"/>
                     <connections>
@@ -521,6 +584,7 @@
                         <outlet property="narcissusImage1" destination="dSM-FN-wq0" id="g6K-cV-0lG"/>
                         <outlet property="narcissusImage1L" destination="hnY-lv-hbv" id="nG6-qb-n7s"/>
                         <outlet property="narcissusLabel1" destination="JyQ-d9-Tud" id="uRi-fB-fR5"/>
+                        <outlet property="nextBtn" destination="H7I-AM-sKL" id="1CE-7X-1s0"/>
                         <outlet property="oolongImage3" destination="7nO-Q9-7a8" id="pQA-em-bKA"/>
                         <outlet property="oolongImage3L" destination="9Hg-vU-BIk" id="LKk-Wb-MfX"/>
                         <outlet property="oolongLabel3" destination="llX-j6-X2u" id="5fQ-iB-L1V"/>
@@ -530,6 +594,7 @@
                         <outlet property="puerImage2L" destination="40r-Cs-Ibi" id="3vJ-Pe-iUf"/>
                         <outlet property="puerLabel2" destination="1y1-N2-Z1l" id="1U3-k2-Vtj"/>
                         <outlet property="teaLabel" destination="NiG-BG-pih" id="zCi-K0-pF0"/>
+                        <segue destination="JzE-TB-J7v" kind="modal" identifier="page23Segue" modalTransitionStyle="flipHorizontal" id="KGt-t7-egl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xsP-AJ-Y8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -556,7 +621,7 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -566,21 +631,30 @@
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ca5-Nf-RQG">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="KNs-tQ-e8e"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Knk-Qz-XWL"/>
+                                            <action selector="didTapPageNumber:" destination="JzE-TB-J7v" eventType="touchUpInside" id="kiz-Pe-tBN"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready-to-serve dishes are pushed around on carts." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S19-Ja-XVd">
                                         <rect key="frame" x="30" y="170" width="260" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dim sum sheet could also be avaliable for ordering." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bnl-CE-gKO">
                                         <rect key="frame" x="30" y="245" width="260" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="DimSumCart" id="sVm-I3-ThX">
@@ -595,29 +669,43 @@
                                         <rect key="frame" x="120" y="495" width="180" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="dim-sum-sheet" id="UXd-Rr-OkH">
                                         <rect key="frame" x="0.0" y="550" width="320" height="240"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="sVR-sa-yUP">
-                                        <rect key="frame" x="119" y="810" width="82" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="I8g-wG-2mC">
+                                        <rect key="frame" x="34" y="810" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="xVU-t5-DUI"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A7T-tp-2Lp"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="kFh-rH-p47"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="sVR-sa-yUP">
+                                        <rect key="frame" x="204" y="810" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="kpo-je-OHb" kind="modal" identifier="page34Segue" modalTransitionStyle="flipHorizontal" id="dxR-VV-Cwm"/>
+                                            <action selector="didTapNextBtn:" destination="JzE-TB-J7v" eventType="touchUpInside" id="XNc-Xr-9UG"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96078431372549022" green="0.71764705882352942" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="t25-5r-XBC"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="900"/>
                     <connections>
@@ -626,8 +714,10 @@
                         <outlet property="des2Page3" destination="Bnl-CE-gKO" id="O3i-wc-Oy8"/>
                         <outlet property="dimSumCartImage1" destination="sVm-I3-ThX" id="ot1-lk-arg"/>
                         <outlet property="label1" destination="2tv-ZQ-2Jl" id="2eG-Be-yNE"/>
+                        <outlet property="nextBtn" destination="sVR-sa-yUP" id="Q8R-T3-Yyr"/>
                         <outlet property="page3ScrollView" destination="OkL-Ow-3Wf" id="5ec-Lb-28o"/>
                         <outlet property="pageCount" destination="DRe-XF-EPz" id="ABF-Vq-cJb"/>
+                        <segue destination="kpo-je-OHb" kind="modal" identifier="page34Segue" modalTransitionStyle="flipHorizontal" id="pkN-an-55k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ru-Oe-Fhx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -654,53 +744,76 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0IT-0E-6is">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="kpo-je-OHb" eventType="touchUpInside" id="0Zo-Oo-k0o"/>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="5BY-RZ-Acv"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eL8-7w-HKl"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8bQ-tt-5XV">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dishes usually come in 3 or 4 pieces or the server will cut into multiple servings for sharing." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VD7-o1-mEJ">
                                         <rect key="frame" x="30" y="170" width="260" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regardless of who makes the order, dishes are placed in the middle." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q5w-YV-nQ3">
                                         <rect key="frame" x="30" y="270" width="260" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="family-style" id="23C-m8-8w1">
                                         <rect key="frame" x="0.0" y="370" width="320" height="240"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="L2T-XG-icz">
-                                        <rect key="frame" x="119" y="660" width="82" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="L2T-XG-icz">
+                                        <rect key="frame" x="204" y="660" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BxA-vM-6yU" kind="modal" identifier="page45Segue" modalTransitionStyle="flipHorizontal" id="h8W-Re-n6F"/>
+                                            <action selector="didTapNextBtn:" destination="kpo-je-OHb" eventType="touchUpInside" id="jys-I6-8hT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="YKw-aR-D8l">
+                                        <rect key="frame" x="34" y="660" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="vER-s7-dBb"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="3dG-lr-8Ss"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JHx-FO-Hjk"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.98039215686274506" green="0.94117647058823528" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QfM-PK-Iem"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="750"/>
                     <connections>
@@ -709,6 +822,7 @@
                         <outlet property="familyImage1" destination="23C-m8-8w1" id="uZI-ce-05j"/>
                         <outlet property="page4ScrollView" destination="dRB-Pr-Ld3" id="Fcx-h3-cuA"/>
                         <outlet property="pageCount" destination="pI9-t2-RpE" id="TVN-0L-6Rt"/>
+                        <segue destination="BxA-vM-6yU" kind="modal" identifier="page45Segue" modalTransitionStyle="flipHorizontal" id="kjn-Un-kcB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59c-mW-94x" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -735,24 +849,33 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w4S-8E-Mx7">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kZX-Du-hrf"/>
+                                            <action selector="didTapPageNumber:" destination="BxA-vM-6yU" eventType="touchUpInside" id="mRy-O1-EgX"/>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="un3-CU-aF2"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Savory dim sum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PwT-75-mDu">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes a variety of steamed, fried, or braised  buns, dumplings, meats, and vegetables." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g9I-dJ-P70">
                                         <rect key="frame" x="30" y="170" width="260" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="p5_BeefBallL" id="jM6-xr-NeS">
@@ -775,17 +898,6 @@
                                         <rect key="frame" x="73" y="360" width="175" height="123"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="EOL-64-z1t">
-                                        <rect key="frame" x="119" y="810" width="82" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
-                                        <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="HpF-5k-0kg" kind="modal" identifier="page56Segue" modalTransitionStyle="flipHorizontal" id="eVT-ok-rqX"/>
-                                        </connections>
-                                    </button>
                                     <view contentMode="scaleToFill" id="RHa-cr-fL0">
                                         <rect key="frame" x="0.0" y="345" width="320" height="450"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -794,70 +906,70 @@
                                                 <rect key="frame" x="28" y="8" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preserved egg and pork congee" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Vx-2w-4Nr">
                                                 <rect key="frame" x="28" y="36" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鮮竹捲" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AAo-Vh-x09">
                                                 <rect key="frame" x="149" y="100" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steamed bean curd roll" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIj-Cu-KCp">
                                                 <rect key="frame" x="149" y="131" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="排骨 " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gYb-vr-Lrf">
                                                 <rect key="frame" x="20" y="190" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steamed spare ribs" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M8u-Nw-sNN">
                                                 <rect key="frame" x="20" y="213" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鍋貼" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oMZ-tL-hLx">
                                                 <rect key="frame" x="182" y="278" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pot sticker" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Aj-qS-ChZ">
                                                 <rect key="frame" x="182" y="305" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蘿蔔糕" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ikX-sf-6Ta">
                                                 <rect key="frame" x="20" y="382" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turnip cake" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZRH-h4-ebD">
                                                 <rect key="frame" x="20" y="410" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -883,11 +995,36 @@
                                         <rect key="frame" x="182" y="345" width="117" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Jsb-la-MA1">
+                                        <rect key="frame" x="34" y="810" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="8Ms-kP-hNS"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8i-kM-Pol"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="cTT-MV-bBP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="EOL-64-z1t">
+                                        <rect key="frame" x="204" y="810" width="82" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="Next &gt;" backgroundImage="button_solid">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapNextBtn:" destination="BxA-vM-6yU" eventType="touchUpInside" id="ur7-JF-PHO"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.72156862745098038" green="0.9137254901960784" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9VM-uq-1fm"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="890"/>
                     <connections>
@@ -915,6 +1052,7 @@
                         <outlet property="turnipCakeImage4" destination="4dR-yH-wMq" id="5Oc-7Z-gmr"/>
                         <outlet property="turnipCakeImage4L" destination="EbQ-6p-GW0" id="zu8-5E-wwz"/>
                         <outlet property="viewLabel" destination="RHa-cr-fL0" id="ojE-d2-WMN"/>
+                        <segue destination="HpF-5k-0kg" kind="modal" identifier="page56Segue" modalTransitionStyle="flipHorizontal" id="Tls-p6-Pwa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kms-HL-i58" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -941,7 +1079,7 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -951,14 +1089,23 @@
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cHc-Eh-aAp">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="HpF-5k-0kg" eventType="touchUpInside" id="6nc-a1-AlI"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mcw-6r-93y"/>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="SbO-FU-4k1"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes a variety of steamed buns and cakes, baked tarts, cold puddings, and more." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eOa-QR-lch">
                                         <rect key="frame" x="30" y="170" width="260" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
-                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="p6_WaterChestnutL" id="rPL-VR-rDh">
@@ -989,70 +1136,70 @@
                                                 <rect key="frame" x="20" y="28" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water chestnut cake" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HVs-gp-gjH">
                                                 <rect key="frame" x="20" y="50" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蛋撻" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xga-3Q-OtY">
                                                 <rect key="frame" x="170" y="127" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egg custard tart" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4XU-bI-a2y">
                                                 <rect key="frame" x="170" y="152" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="煎堆 " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tA8-wK-laX">
                                                 <rect key="frame" x="20" y="210" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sesame ball" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1LR-hh-gX1">
                                                 <rect key="frame" x="20" y="234" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="芝麻捲" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N4T-Qs-kcc">
                                                 <rect key="frame" x="155" y="305" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sesame roll" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cuU-NS-hp8">
                                                 <rect key="frame" x="155" y="327" width="120" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蓮蓉包" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LJH-qM-K6D">
                                                 <rect key="frame" x="32" y="397" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HanWangShinSuMedium" family="HanWangShinSuMedium" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lotus bun" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="joZ-mf-Lkn">
                                                 <rect key="frame" x="32" y="420" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="12"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1078,22 +1225,36 @@
                                         <rect key="frame" x="160" y="710" width="126" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Ira-TI-k6U">
-                                        <rect key="frame" x="119" y="810" width="82" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Ira-TI-k6U">
+                                        <rect key="frame" x="204" y="810" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="NxV-Pk-jg8" kind="modal" identifier="page67Segue" modalTransitionStyle="flipHorizontal" id="X1l-ev-Zqa"/>
+                                            <action selector="didTapNextBtn:" destination="HpF-5k-0kg" eventType="touchUpInside" id="a30-5p-THf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Aed-8J-eND">
+                                        <rect key="frame" x="34" y="810" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="obt-Dq-QwO"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="4xM-up-MNW"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p4r-aW-sTm"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.52156862745098043" green="0.96470588235294119" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fhC-RV-O3y"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="900"/>
                     <connections>
@@ -1121,6 +1282,7 @@
                         <outlet property="viewLabel" destination="1GE-by-dpk" id="oCw-fm-hdy"/>
                         <outlet property="waterChestnutImage1" destination="3eY-NA-mwJ" id="Yt4-3i-eF5"/>
                         <outlet property="waterChestnutImage1L" destination="rPL-VR-rDh" id="jue-fj-aZy"/>
+                        <segue destination="NxV-Pk-jg8" kind="modal" identifier="page67Segue" modalTransitionStyle="flipHorizontal" id="4LE-k9-hVY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duI-vU-AyO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1147,12 +1309,21 @@
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wOI-ME-EB5">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="50X-CE-96H"/>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="JkC-Gk-NFb"/>
+                                            <action selector="didTapPageNumber:" destination="NxV-Pk-jg8" eventType="touchUpInside" id="aue-B2-7cg"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QKI-bv-Jhr">
                                         <rect key="frame" x="20" y="105" width="280" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1181,22 +1352,36 @@ you eat?</string>
                                         <rect key="frame" x="47" y="395" width="226" height="412"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="9Pd-fS-sr6">
-                                        <rect key="frame" x="119" y="830" width="82" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Mjw-go-b2Q">
+                                        <rect key="frame" x="34" y="830" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="3Te-qV-mja"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ou-xz-wRh"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="I5p-VG-BrO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="9Pd-fS-sr6">
+                                        <rect key="frame" x="204" y="830" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.1843137255" green="0.70588235290000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="JVu-Qc-jOc" kind="modal" identifier="page78Segue" modalTransitionStyle="flipHorizontal" id="SKm-Ed-IMx"/>
+                                            <action selector="didTapNextBtn:" destination="NxV-Pk-jg8" eventType="touchUpInside" id="s4E-m8-YLi"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.18431372549019609" green="0.70588235294117641" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="E0m-Yv-34K"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="900"/>
                     <connections>
@@ -1205,6 +1390,7 @@ you eat?</string>
                         <outlet property="des2Page7" destination="JAw-Iw-2u6" id="xGD-pF-Bx1"/>
                         <outlet property="page7ScrollView" destination="3j7-g0-CLp" id="8N6-Ni-JaE"/>
                         <outlet property="pageCount" destination="n8P-oq-vUx" id="TN1-OJ-2gQ"/>
+                        <segue destination="JVu-Qc-jOc" kind="modal" identifier="page78Segue" modalTransitionStyle="flipHorizontal" id="epc-b0-qzR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gaf-BQ-RmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1231,12 +1417,21 @@ you eat?</string>
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GFd-7B-GkU">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="DhH-kQ-XEt"/>
+                                            <action selector="didTapPageNumber:" destination="JVu-Qc-jOc" eventType="touchUpInside" id="Tcd-si-lJK"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c0h-v1-lt5"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Refill water" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="90G-uY-aj3">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1255,22 +1450,36 @@ you eat?</string>
                                         <rect key="frame" x="35" y="290" width="261" height="159"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ay5-xm-C3V">
-                                        <rect key="frame" x="119" y="470" width="82" height="30"/>
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ay5-xm-C3V">
+                                        <rect key="frame" x="204" y="470" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.18823529410000001" green="0.62352941179999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="M6T-p0-mqz" kind="modal" identifier="page89Segue" modalTransitionStyle="flipHorizontal" id="7ck-Vf-iV6"/>
+                                            <action selector="didTapNextBtn:" destination="JVu-Qc-jOc" eventType="touchUpInside" id="a21-JC-gaY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="HGK-we-m8W">
+                                        <rect key="frame" x="34" y="470" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="NFP-r6-1pD"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DKT-bg-l3e"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="IYE-QG-pSL"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.18823529411764706" green="0.62352941176470589" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bqT-cC-mRx"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
@@ -1278,7 +1487,9 @@ you eat?</string>
                         <outlet property="nextButton" destination="ay5-xm-C3V" id="m8a-Na-GAv"/>
                         <outlet property="page8ScrollView" destination="9tW-As-jzX" id="Y6c-et-fUm"/>
                         <outlet property="pageCount" destination="dKn-mA-iuE" id="nAF-79-DI1"/>
+                        <outlet property="preButton" destination="HGK-we-m8W" id="fVY-VF-IdL"/>
                         <outlet property="refillWaterImage1" destination="O0e-H4-wHs" id="K14-uN-GpF"/>
+                        <segue destination="M6T-p0-mqz" kind="modal" identifier="page89Segue" modalTransitionStyle="flipHorizontal" id="zTs-33-f7B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ige-Kv-Q9n" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1305,12 +1516,21 @@ you eat?</string>
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AZb-ie-VU8">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="2z1-eM-QJi"/>
+                                            <action selector="didTapPageNumber:" destination="M6T-p0-mqz" eventType="touchUpInside" id="RfP-Au-mfb"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcx-Qi-a4L"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tea pouring custom" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Av-zm-YV1">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1340,14 +1560,14 @@ you eat?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When pouring tea for people on your left side, the right hand should be used to hold the teapot and vice versa." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LWc-To-1d0">
-                                        <rect key="frame" x="30" y="410" width="260" height="90"/>
+                                        <rect key="frame" x="30" y="410" width="260" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When pouring tea for people on your left side, the right hand should be used to hold the teapot and vice versa." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qzn-sV-mfj">
-                                        <rect key="frame" x="30" y="580" width="260" height="90"/>
+                                        <rect key="frame" x="30" y="585" width="260" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1460,15 +1680,28 @@ you eat?</string>
                                             <action selector="didTapTryItButton1b:" destination="M6T-p0-mqz" eventType="touchUpInside" id="nWq-Xa-mka"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="oNi-U4-N6Z">
-                                        <rect key="frame" x="119" y="1550" width="82" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="oNi-U4-N6Z">
+                                        <rect key="frame" x="204" y="1550" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.47450980390000003" green="0.40784313729999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="X3k-EM-r34" kind="modal" identifier="page910Segue" modalTransitionStyle="flipHorizontal" id="uOC-iY-GxL"/>
+                                            <action selector="didTapNextBtn:" destination="M6T-p0-mqz" eventType="touchUpInside" id="eLu-6t-AcB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="IHW-HI-dNh">
+                                        <rect key="frame" x="34" y="1550" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="wsx-q6-iRu"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4p-CW-v4K"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="h7a-Df-cYQ"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It symbolizes the gesture of bowing." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j9w-IQ-hbZ">
@@ -1481,8 +1714,9 @@ you eat?</string>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.47450980392156861" green="0.40784313725490196" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="csw-9H-8e4"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1644"/>
                     <connections>
@@ -1514,6 +1748,7 @@ you eat?</string>
                         <outlet property="topTeaRightImage3a" destination="S9r-Hy-e9O" id="I9O-6s-vXF"/>
                         <outlet property="tryItButton1a" destination="zMC-Sa-ZEq" id="6Ij-RS-1Ht"/>
                         <outlet property="tryItButton1b" destination="sKC-hc-9Ws" id="fV9-30-Wig"/>
+                        <segue destination="X3k-EM-r34" kind="modal" identifier="page910Segue" modalTransitionStyle="flipHorizontal" id="V2a-bZ-lDw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="obo-RW-LMH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1525,7 +1760,7 @@ you eat?</string>
             <objects>
                 <viewController id="X3k-EM-r34" customClass="page10ViewController" customModule="Dim_Sum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zph-m6-2me">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="pRq-td-W7k">
@@ -1540,12 +1775,21 @@ you eat?</string>
                                                 <rect key="frame" x="0.0" y="8" width="50" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="24"/>
-                                                <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yOH-pD-U0A">
+                                        <rect key="frame" x="20" y="25" width="165" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="didTapPageNumber:" destination="X3k-EM-r34" eventType="touchUpInside" id="M47-94-dI4"/>
+                                            <action selector="didTapPageNumber:" destination="1Ya-nR-N33" eventType="touchUpInside" id="adm-es-MRg"/>
+                                            <action selector="didTapPageNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="maB-Qm-iHa"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready for dim sum?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E3q-Z9-2bQ">
                                         <rect key="frame" x="20" y="105" width="280" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1553,26 +1797,39 @@ you eat?</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After you take your seat, the server will ask you your choice of tea." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qqZ-xP-zhO">
-                                        <rect key="frame" x="30" y="170" width="260" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hope you enjoyed the walk through." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qqZ-xP-zhO">
+                                        <rect key="frame" x="30" y="170" width="260" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here are some popular kinds of tea." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kwz-L3-3Uk">
-                                        <rect key="frame" x="30" y="245" width="260" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check out the different types of dim sum and tea on the next page." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kwz-L3-3Uk">
+                                        <rect key="frame" x="30" y="240" width="260" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="BKo-VO-bEN">
-                                        <rect key="frame" x="119" y="810" width="82" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="4ZX-gx-9CT">
+                                        <rect key="frame" x="34" y="470" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
+                                        <state key="normal" title="&lt; Previous" backgroundImage="button_solid_long">
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPreBtn:" destination="Csm-hM-Esk" eventType="touchUpInside" id="Reg-ZA-79w"/>
+                                            <action selector="didTapPreviousButton:" destination="Csm-hM-Esk" eventType="touchUpInside" id="L7d-vm-LKA"/>
+                                            <action selector="didTapPreviousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wpi-xL-Ei1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="BKo-VO-bEN">
+                                        <rect key="frame" x="204" y="470" width="82" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="15"/>
                                         <state key="normal" title="Next &gt;" backgroundImage="button_solid">
-                                            <color key="titleColor" red="0.74117647060000003" green="0.37254901959999998" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.86666666670000003" green="0.2274509804" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="gT8-fx-Yg4" kind="modal" modalTransitionStyle="flipHorizontal" id="zex-pf-tMP"/>
@@ -1581,10 +1838,11 @@ you eat?</string>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.74117647058823533" green="0.37254901960784315" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="G1Y-FW-0Rp"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="900"/>
+                    <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="page10ScrollView" destination="pRq-td-W7k" id="7Wr-JP-eLq"/>
                         <outlet property="pageCount" destination="yfy-lG-Efm" id="ehE-Jz-Glr"/>
@@ -1665,6 +1923,11 @@ you eat?</string>
                                     <action selector="didPressMenuBtn:" destination="fL7-TV-CV5" eventType="touchUpInside" id="97l-L4-Hyg"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" id="QgF-7a-PEJ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83422111740000005" green="0.83422111740000005" blue="0.83422111740000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1725,7 +1988,7 @@ you eat?</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" id="8Sm-uA-otd">
-                                <rect key="frame" x="25" y="385" width="270" height="110"/>
+                                <rect key="frame" x="25" y="390" width="285" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label, Label</string>
                                 <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="14"/>
@@ -1791,41 +2054,63 @@ you eat?</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qen-ce-BHx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hgo-19-p68">
+                                <rect key="frame" x="20" y="20" width="30" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="42"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapBack:" destination="F1w-FI-P5k" eventType="touchUpInside" id="2GK-KO-303"/>
+                                    <action selector="didTapBackBtn:" destination="JTb-iA-2kE" eventType="touchUpInside" id="Ag7-he-D4b"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="Gh8-YA-yuu">
+                                <rect key="frame" x="0.0" y="59" width="320" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83422111740000005" green="0.83422111740000005" blue="0.83422111740000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="46" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qen-ce-BHx">
                                 <rect key="frame" x="0.0" y="60" width="320" height="508"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="listCell" id="LJH-ow-UFd" customClass="listTableViewCell" customModule="Dim_Sum" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LJH-ow-UFd" id="urT-a1-AqB">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="##" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WO9-31-xrr">
-                                                    <rect key="frame" x="20" y="0.0" width="30" height="40"/>
+                                                    <rect key="frame" x="20" y="4" width="30" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="16"/>
                                                     <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tbD-lr-Bv6">
-                                                    <rect key="frame" x="45" y="0.0" width="230" height="40"/>
+                                                    <rect key="frame" x="45" y="4" width="230" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="16"/>
                                                     <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m7K-nh-yzi">
-                                                    <rect key="frame" x="290" y="0.0" width="10" height="40"/>
+                                                    <rect key="frame" x="290" y="4" width="10" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="16"/>
                                                     <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="numberLabel" destination="WO9-31-xrr" id="bQL-2l-wmf"/>
                                             <outlet property="titleLabel" destination="tbD-lr-Bv6" id="oeH-Wv-bJp"/>
@@ -1859,8 +2144,9 @@ you eat?</string>
         <!--Navigation Controller-->
         <scene sceneID="aSe-zu-pGq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ht2-1G-K9L" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ht2-1G-K9L" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FD3-Er-xrD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1873,6 +2159,39 @@ you eat?</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kDo-jl-eoA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="284" y="182"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ega-K4-2Zp">
+            <objects>
+                <viewController id="MAX-Lk-kbg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Zd-uM-TXd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30r-P1-pb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="McF-Vr-8Ni">
+            <objects>
+                <viewController id="Ggx-S2-Mpp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lG5-Nd-AoS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RcU-Gv-1gV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="aAG-4j-0u5">
+            <objects>
+                <viewControllerPlaceholder id="dTi-MJ-ZBU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eg2-g4-opW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
@@ -1935,17 +2254,17 @@ you eat?</string>
         <image name="top" width="130" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gKW-af-950"/>
-        <segue reference="29R-KW-VRI"/>
-        <segue reference="ijF-xh-ev8"/>
-        <segue reference="Oav-Eq-07p"/>
-        <segue reference="huw-eb-vHs"/>
+        <segue reference="a3q-uL-dtd"/>
+        <segue reference="zex-pf-tMP"/>
+        <segue reference="p5N-yc-5bR"/>
+        <segue reference="QLC-5R-yTn"/>
+        <segue reference="exD-14-lO4"/>
         <segue reference="Cy0-AZ-mEz"/>
-        <segue reference="h8W-Re-n6F"/>
-        <segue reference="eVT-ok-rqX"/>
-        <segue reference="X1l-ev-Zqa"/>
-        <segue reference="SKm-Ed-IMx"/>
-        <segue reference="7ck-Vf-iV6"/>
-        <segue reference="uOC-iY-GxL"/>
+        <segue reference="06k-Jf-ocH"/>
+        <segue reference="L9F-3F-HRi"/>
+        <segue reference="huw-eb-vHs"/>
+        <segue reference="jbz-8M-D0x"/>
+        <segue reference="EDK-3Q-em4"/>
+        <segue reference="tqR-TG-HAk"/>
     </inferredMetricsTieBreakers>
 </document>
