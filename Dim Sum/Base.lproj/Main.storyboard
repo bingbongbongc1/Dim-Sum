@@ -2026,6 +2026,14 @@ you eat?</string>
                                     <action selector="didTapBack:" destination="F1w-FI-P5k" eventType="touchUpInside" id="qOa-S6-oFL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j38-sR-VqX">
+                                <rect key="frame" x="276" y="31" width="19" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="sound"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="F1w-FI-P5k" eventType="touchUpInside" id="5j5-sf-egt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -2251,6 +2259,7 @@ you eat?</string>
         <image name="p6_SesameRollL" width="210" height="144"/>
         <image name="p6_WaterChestnut" width="140" height="87"/>
         <image name="p6_WaterChestnutL" width="210" height="130"/>
+        <image name="sound" width="19" height="18"/>
         <image name="top" width="130" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>

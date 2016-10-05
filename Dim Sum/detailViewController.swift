@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
+
+var dimsumAudioPlayer = AVAudioPlayer()
 
 class detailViewController: UIViewController {
     
@@ -43,6 +46,30 @@ class detailViewController: UIViewController {
     @IBAction func didTapBack(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    @IBAction func didTapSound(sender: AnyObject) {
+        
+        let myPath = NSBundle.mainBundle().pathForResource(importedDimSum.sound, ofType: nil)
+        
+        if let myPath = myPath {
+            
+            let url = NSURL(fileURLWithPath: myPath)
+            
+            do {
+                try myAudioPlayer = AVAudioPlayer(contentsOfURL: url)
+                myAudioPlayer.play()
+            }
+            catch {
+                print("Can't play sound!")
+            }
+        }
+        else {
+            print("AHH!")
+            
+        }
+
+    }
+    
     
 
     override func didReceiveMemoryWarning() {
