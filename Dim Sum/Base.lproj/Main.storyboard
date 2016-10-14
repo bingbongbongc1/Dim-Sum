@@ -1538,7 +1538,7 @@ you eat?</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are etiquette that Chinese people commonly recognize and use." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fly-bU-W2Q">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are etiquettes that Chinese people commonly recognize and use." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fly-bU-W2Q">
                                         <rect key="frame" x="30" y="170" width="260" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
@@ -1559,14 +1559,14 @@ you eat?</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When pouring tea for people on your left side, the right hand should be used to hold the teapot and vice versa." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LWc-To-1d0">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When pouring tea for people on your left side, the right hand should be used to hold the tea pot and vice versa." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LWc-To-1d0">
                                         <rect key="frame" x="30" y="410" width="260" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When pouring tea for people on your left side, the right hand should be used to hold the teapot and vice versa." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qzn-sV-mfj">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When pouring tea for people on your left side, the right hand should be used to hold the tea pot and vice versa." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qzn-sV-mfj">
                                         <rect key="frame" x="30" y="585" width="260" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="attackofthecucumbers" family="attack of the cucumbers" pointSize="18"/>
@@ -2264,16 +2264,16 @@ you eat?</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="a3q-uL-dtd"/>
-        <segue reference="zex-pf-tMP"/>
-        <segue reference="p5N-yc-5bR"/>
+        <segue reference="gKW-af-950"/>
+        <segue reference="jbz-8M-D0x"/>
+        <segue reference="j1m-mH-MHS"/>
         <segue reference="QLC-5R-yTn"/>
         <segue reference="exD-14-lO4"/>
         <segue reference="Cy0-AZ-mEz"/>
         <segue reference="06k-Jf-ocH"/>
-        <segue reference="L9F-3F-HRi"/>
         <segue reference="huw-eb-vHs"/>
-        <segue reference="jbz-8M-D0x"/>
         <segue reference="EDK-3Q-em4"/>
         <segue reference="tqR-TG-HAk"/>
+        <segue reference="V2a-bZ-lDw"/>
     </inferredMetricsTieBreakers>
 </document>
